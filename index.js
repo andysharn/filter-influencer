@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Replace with your actual API Gateway URL and resource path
-const apiUrl = 'your_api';
+const apiUrl = 'https://xxxxxxq2.execute-api.us-east-1.amazonaws.com/prod';
 
 // Function to fetch filtered data from API
 async function fetchFilteredData(queryParams) {
