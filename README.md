@@ -26,13 +26,13 @@ To run the  project
 #### Get all influencers
 
 ```http
-  GET https://70p5uilkq2.execute-api.us-east-1.amazonaws.com/prod
+  GET https://xxxxxxq2.execute-api.us-east-1.amazonaws.com/prod
 ```
 
 #### Get filtered influencers
 
 ```http
- GET  https://70p5uilkq2.execute-api.us-east-1.amazonaws.com/prod?min_influence_score=80&min_followers=10000&min_avg_likes=1400000&country=united states
+ GET  https://xxxxxxq2.execute-api.us-east-1.amazonaws.com/prod?min_influence_score=80&min_followers=10000&min_avg_likes=1400000&country=united states
 ```
 
 | Query Parameter | Type     | Description                       |
