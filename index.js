@@ -9,13 +9,10 @@ async function fetchFilteredData(queryParams) {
         const response = await axios.get(apiUrl, {
             params: queryParams,
             headers: {
-                // If your API requires headers, add them here
                 'Content-Type': 'application/json',
-                // 'Authorization': 'Bearer your-token',  // If using Bearer token
             },
         });
 
-        // Log the JSON response from the API
         console.log('Filtered Data:', response.data);
     } catch (error) {
         console.error('Error fetching data:', error.message);
@@ -24,8 +21,7 @@ async function fetchFilteredData(queryParams) {
 
 // Example query parameters (modify as needed)
 const queryParams = {
-    country: 'india', // Replace with your actual query params
+    country: 'india', 
 };
 
-// Call the function to fetch data
 fetchFilteredData(queryParams);
